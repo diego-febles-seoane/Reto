@@ -1,7 +1,7 @@
 es/reto/diheda/clases/UsuarioController.class
 es/reto/diheda/Main.class
 es/reto/diheda/clases/UsuarioApplication.class
-es/reto/diheda/clases/UsuarioRepository.class
 es/reto/diheda/clases/Rol.class
+es/reto/diheda/clases/UsuarioRepository.class
 es/reto/diheda/clases/Usuario.class
 es/reto/diheda/clases/UsuarioService.class
