@@ -13,7 +13,7 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @Column(name = "name", nullable = false)
-	private String name;
+	private String nombre;
 	
     /**
      * constructor vacio
