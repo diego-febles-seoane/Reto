@@ -1,0 +1,5 @@
+es\reto\diheda\model\UsuarioApplication.class
+es\reto\diheda\model\repositories\UsuarioRepository.class
+es\reto\diheda\model\controllers\UsuarioController.class
+es\reto\diheda\model\entities\Usuario.class
+es\reto\diheda\model\services\UsuarioService.class
