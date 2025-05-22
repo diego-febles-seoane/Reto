@@ -1,10 +1,9 @@
-package es.reto.diheda;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+package es.reto.diheda.model.entities;
+
+
+import java.util.Objects;
+
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "usuario")
@@ -60,4 +59,21 @@ public class Usuario {
 	public String toString() {
 		return "Usuario [id=" + id + ", name=" + name + "]";
 	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (o == this)
+			return true;
+		if (!(o instanceof Usuario)) {
+			return false;
+		}
+		Usuario usuario = (Usuario) o;
+		return id == usuario.id && Objects.equals(name, usuario.name);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
+	}
+
 }
